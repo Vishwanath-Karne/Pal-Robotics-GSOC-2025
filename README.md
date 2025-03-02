@@ -1,8 +1,8 @@
 # Google Summer of Code 2025 – PAL Robotics Project Plan
 
-## **Introduction**
 
-### **Welcome**
+
+### **Welcome to PAL Robotics**
 Welcome to PAL Robotics' Google Summer of Code (GSoC) 2025 project ideas page! We are excited to offer multiple robotics-related projects for students who are passionate about **robotics, ROS 2, control systems, and simulation technologies**.
 
 ### **Useful Links**
