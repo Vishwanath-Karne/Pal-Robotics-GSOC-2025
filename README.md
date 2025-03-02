@@ -24,13 +24,28 @@ Each project requires a different skill set, ranging from **C++ and Python** pro
 ## **How to Apply**
 
 ### **Encouragement for Applicants**
-We encourage applicants to **engage with the community early**, contribute to discussions, and refine their project proposals. A strong proposal includes prior contributions, a clear understanding of the problem, and a well-thought-out implementation plan.
+We encourage applicants to **engage with the community early**, contribute to discussions, and refine their project proposals. A strong proposal includes **prior contributions**, a **clear understanding of the problem**, and a **well-thought-out implementation plan**.
 
 ### **Steps to Contact Mentors and Contribute Early**
 1. **Join Discussions**: Engage in discussions on PAL Robotics' GitHub.
 2. **Explore Open Issues**: Contribute to related open-source repositories.
 3. **Reach Out to Mentors**: Discuss your ideas and get feedback.
 4. **Prepare a Strong Proposal**: Follow GSoC's official proposal writing guide.
+
+### **Tips for Writing a Successful Google Summer of Code Application**
+1. **Follow GSoC’s Writing a Proposal Guidelines**: Read and adhere to the official [GSoC proposal writing guide](https://google.github.io/gsocguides/student/writing-a-proposal.html).
+2. **Include Your GitHub Profile**: Provide a link to your GitHub to showcase your previous contributions.
+3. **Point Us to Your Open Source Contributions**: Highlight any contributions you have made to open-source projects.
+4. **Provide Contact Information**: Ensure we have a way to reach you for any communication regarding your application.
+5. **Specify Your Technical Background**: Mention your programming skills, experience with relevant technologies, and any coursework you have taken.
+6. **Describe Your Background in Robotics and ROS 2**: Provide insights into your experience and knowledge of robotics and ROS 2.
+7. **Specify Your Project of Interest**: Clearly mention the project you are applying for and explain why you are interested in it.
+8. **Explain Your Goals for GSoC**: Share what you hope to achieve and learn from your Google Summer of Code experience.
+9. **Engage with Mentors**: Feel free to reach out to the project mentors on GitHub to discuss your ideas and seek guidance.
+
+For further questions, please contact [Sai Kishor Kothakota](sai.kishor@pal-robotics.com).
+
+
 
 ## **Mentors**
 
@@ -49,9 +64,14 @@ We encourage applicants to **engage with the community early**, contribute to di
 
 #### See below for a list of projects ideas for [Google Summer of Code 2025](https://summerofcode.withgoogle.com/programs/2025/organizations/pal-robotics).
 #### The currently proposed projects are:
-- **ROS 2**: Core robotics middleware.
-- **Gazebo Harmonic**: Advanced robotics simulation environment.
-- **Rigid Body Dynamics Libraries**: Pinocchio, RBDL, etc.
+
+1. Payload Visualization and Metrics
+2. ROS 2 Action Multiplexer (Action Mux)
+3. RFID Simulation Plugin for Gazebo Harmonic
+4. ROS 2 Control Ecosystem Visualization
+5. ROS 2 Python-Launch LSP Server
+
+
 
 ## **Project Ideas Table**
 
@@ -201,9 +221,10 @@ Develop a **Language Server Protocol (LSP) tool** for analyzing **ROS 2 Python-b
 - **AST (Abstract Syntax Tree) Processing**
 
 ### **Possible Mentors**
-- T[Thomas Ung](https://github.com/tomkimsour) 
+- [Thomas Ung](https://github.com/tomkimsour) 
 
 ### **Project Size & Difficulty**
 - **175 hours**
 - **Medium**
+
 
