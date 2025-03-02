@@ -136,7 +136,7 @@ Develop an RFID simulation plugin to **support object tracking and localization*
 - C++, ROS 2, Gazebo Plugin Development, RFID Systems.
 
 #### **Possible Mentors**
--[Oscar Martinez](https://github.com/OscarMrZ)  
+- [Oscar Martinez](https://github.com/OscarMrZ)  
 
 #### **Project Size & Difficulty**
 - **175 hours**
@@ -201,7 +201,7 @@ Develop a **Language Server Protocol (LSP) tool** for analyzing **ROS 2 Python-b
 - **AST (Abstract Syntax Tree) Processing**
 
 ### **Possible Mentors**
-- Thomas Ung
+- T[Thomas Ung](https://github.com/tomkimsour) 
 
 ### **Project Size & Difficulty**
 - **175 hours**
