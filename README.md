@@ -1,5 +1,4 @@
 # Google Summer of Code 2025 – PAL Robotics Project Plan
-<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fsummerofcode.withgoogle.com%2F&psig=AOvVaw1MTGqSuXLrOZcrZ-i4vHDe&ust=1740983534896000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMCP8Kbj6osDFQAAAAAdAAAAABAE" alt="Google Summer of Code">
 
 
 ### **Welcome to PAL Robotics!**
@@ -46,9 +45,10 @@ We encourage applicants to **engage with the community early**, contribute to di
 - Avoid sending private messages unless absolutely necessary.
 - Be **respectful and professional** in communications.
 
-## **Collaborations**
+## **Overview**
 
-### **Related Open-Source Projects**
+#### See below for a list of projects ideas for [Google Summer of Code 2025](https://summerofcode.withgoogle.com/programs/2025/organizations/pal-robotics).
+#### The currently proposed projects are:
 - **ROS 2**: Core robotics middleware.
 - **Gazebo Harmonic**: Advanced robotics simulation environment.
 - **Rigid Body Dynamics Libraries**: Pinocchio, RBDL, etc.
@@ -57,10 +57,11 @@ We encourage applicants to **engage with the community early**, contribute to di
 
 | Project Name | Difficulty | Project Size | Description | Skills Required | Mentors |
 |-------------|------------|-------------|-------------|----------------|---------|
-| Payload Visualization & Metrics | Medium | 175 hours | Develop a ROS 2 tool to visualize robot payload capabilities | C++/Python, ROS 2, URDF, RViz, Rigid Body Dynamics | Luca Marchionni |
-| ROS 2 Action Mux | Medium/Hard | 175 hours | Middleware tool for prioritizing multiple action servers in ROS 2 | C++, ROS 2 Basics | Sai Kishor Kothakota |
-| RFID Simulation for Gazebo Harmonic | Medium | 175 hours | Develop an RFID simulation plugin for Gazebo | C++, ROS 2, Gazebo, RFID Systems | Oscar Martinez |
-| ROS 2 Control Ecosystem Visualization | Medium/Hard | 350 hours | Develop an RQT or web-based tool to visualize ROS 2 Control | Qt, JavaScript, ROS 2 Actions/Services | Sai Kishor Kothakota |
+| Payload Visualization & Metrics | Medium | 175 hours | Develop a ROS 2 tool to visualize robot payload capabilities | C++/Python, ROS 2, URDF, RViz, Rigid Body Dynamics | [Luca Marchionni](https://github.com/lucamarchionni) |
+| ROS 2 Action Mux | Medium/Hard | 175 hours | Middleware tool for prioritizing multiple action servers in ROS 2 | C++, ROS 2 Basics | [Sai Kishor Kothakota](https://github.com/saikishor) |
+| RFID Simulation for Gazebo Harmonic | Medium | 175 hours | Develop an RFID simulation plugin for Gazebo | C++, ROS 2, Gazebo, RFID Systems | [Oscar Martinez](https://github.com/OscarMrZ) |
+| ROS 2 Control Ecosystem Visualization | Medium/Hard | 350 hours | Develop an RQT or web-based tool to visualize ROS 2 Control | Qt, JavaScript, ROS 2 Actions/Services | [Sai Kishor Kothakota](https://github.com/saikishor) |
+| ROS2 Python-Launch LSP Server | Medium | 175 hours | Develop a Language Server Protocol (LSP) tool for analyzing ROS 2 launch files | Rust, ROS 2, LSP, AST | [Thomas Ung](https://github.com/tomkimsour) |
 
 ## **Detailed Project Descriptions**
 
@@ -83,7 +84,7 @@ This project aims to create a **ROS 2-based software tool** for assessing and vi
 - C++/Python, ROS 2, URDF, RViz Plugin Development, Rigid Body Dynamics.
 
 #### **Possible Mentors**
-- Luca Marchionni
+- [Luca Marchionni](https://github.com/lucamarchionni)  
 
 #### **Project Size & Difficulty**
 - **175 hours**
@@ -109,7 +110,7 @@ A middleware tool to handle multiple ROS 2 action servers with a **priority-base
 - C++, ROS 2 Basics.
 
 #### **Possible Mentors**
-- Sai Kishor Kothakota
+- [Sai Kishor Kothakota](https://github.com/saikishor) 
 
 #### **Project Size & Difficulty**
 - **175 hours**
@@ -135,7 +136,7 @@ Develop an RFID simulation plugin to **support object tracking and localization*
 - C++, ROS 2, Gazebo Plugin Development, RFID Systems.
 
 #### **Possible Mentors**
-- Oscar Martinez
+-[Oscar Martinez](https://github.com/OscarMrZ)  
 
 #### **Project Size & Difficulty**
 - **175 hours**
@@ -161,9 +162,48 @@ Develop a visualization tool to **monitor and analyze ROS 2 Control systems** in
 - Qt, JavaScript, ROS 2 Actions/Services.
 
 #### **Possible Mentors**
-- Sai Kishor Kothakota
+- [Sai Kishor Kothakota](https://github.com/saikishor) 
 
 #### **Project Size & Difficulty**
 - **350 hours**
 - **Medium/Hard**
+
+## 5. ROS 2 Python-Launch LSP Server
+
+### **Summary**
+Develop a **Language Server Protocol (LSP) tool** for analyzing **ROS 2 Python-based launch files**, improving code navigation, validation, and development efficiency.
+
+### **Detailed Description**
+- The ROS 2 launchfile system is responsible for managing the launch and configuration of multiple processes and nested launchfiles.
+- Python launchfiles utilize **launch descriptions**, composed of ordered lists of **actions and action groups**.
+- These descriptions often include **substitutions**, allowing for dynamic configuration, but making it difficult to track parameter usage and executable launches.
+- Due to this complexity, **understanding and debugging ROS 2 launch files** before runtime is challenging.
+- A **Language Server Protocol (LSP) tool** will address these issues by enabling **static analysis, error detection, and intelligent navigation**.
+- This tool will assist developers in large-scale ROS 2 projects by providing:
+  - **Go-to-definition** for navigating ROS 2 launch files.
+  - **Code completion** for Actions and Substitutions.
+  - **Find references** for improving traceability across files.
+  - **Executable argument suggestions** for better configuration.
+  - **Syntactic error diagnostics** to catch issues early.
+  - **Pre-processing ROS 2 substitutions** for structured validation.
+
+### **Expected Outcomes**
+- A working **ROS 2 Python-Launch LSP server**.
+- Features such as **go-to-definition, auto-completion, and reference tracking**.
+- **Executable argument suggestions** for improved usability.
+- **Error diagnostics** for syntax validation.
+- **Comprehensive documentation** on how to integrate the tool with LSP-compatible editors (VS Code, Vim, etc.).
+
+### **Relevant Skills**
+- Rust
+- ROS 2 Basics
+- Familiarity with **LSP (Language Server Protocol)**
+- **AST (Abstract Syntax Tree) Processing**
+
+### **Possible Mentors**
+- Thomas Ung
+
+### **Project Size & Difficulty**
+- **175 hours**
+- **Medium**
 
