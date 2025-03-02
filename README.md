@@ -36,10 +36,10 @@ We encourage applicants to **engage with the community early**, contribute to di
 ## **Mentors**
 
 ### **List of Available Mentors**
-- [Luca Marchionni](  
-- **Sai Kishor Kothakota**  
-- **Oscar Martinez**  
-- **Thomas Ung**  
+- [Luca Marchionni](https://github.com/lucamarchionni)  
+- [Sai Kishor Kothakota](https://github.com/saikishor)  
+- [Oscar Martinez](https://github.com/OscarMrZ)  
+- [Thomas Ung](https://github.com/tomkimsour)  
 
 ### **Guidelines for Communication**
 - Use **public forums** for discussions.
