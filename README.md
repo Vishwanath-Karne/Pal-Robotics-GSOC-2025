@@ -36,7 +36,7 @@ We encourage applicants to **engage with the community early**, contribute to di
 ## **Mentors**
 
 ### **List of Available Mentors**
-- **Luca Marchionni**  
+- [Luca Marchionni](  
 - **Sai Kishor Kothakota**  
 - **Oscar Martinez**  
 - **Thomas Ung**  
