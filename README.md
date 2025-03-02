@@ -1,5 +1,5 @@
 # Google Summer of Code 2025 – PAL Robotics Project Plan
-https://www.google.com/url?sa=i&url=https%3A%2F%2Fsummerofcode.withgoogle.com%2F&psig=AOvVaw1MTGqSuXLrOZcrZ-i4vHDe&ust=1740983534896000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMCP8Kbj6osDFQAAAAAdAAAAABAE
+<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fsummerofcode.withgoogle.com%2F&psig=AOvVaw1MTGqSuXLrOZcrZ-i4vHDe&ust=1740983534896000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMCP8Kbj6osDFQAAAAAdAAAAABAE" alt="Google Summer of Code">
 
 
 ### **Welcome to PAL Robotics!**
